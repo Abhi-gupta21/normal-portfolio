@@ -10,15 +10,17 @@ body{
     background-image: url("bgm2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 95vh;
+    height: 100vh;
     display:flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .headshot{
     width: 30%;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #wlcm{
@@ -42,7 +44,7 @@ body{
     background-image: url("black2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
