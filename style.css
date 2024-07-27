@@ -1,0 +1,125 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(20,20,20);
+}
+
+.main1{
+    background-image: url("bgm2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headshot{
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+#wlcm{
+    font-family:cursive;
+    color: white;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    font-size:x-large;
+    margin-top: 40px;
+}
+
+.main2{
+    background-image: url("black2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub1{
+    display:block;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub1 p {
+    color: white;
+    margin-top: 50px; 
+    text-align: center;
+}
+
+.about{
+    width: 80%;
+}
+
+.main3{
+    background-color: rgb(20,20,20);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    background-color: black;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20,20,20);
+    margin-top: 30px;
+}
+
+
+.cards{
+    display:flex;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.card{
+    
+    
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    .cards{
+        display:block;
+    }
+    .card{
+        margin: auto;
+        margin-top: 30px;
+    }
+    .main3{
+        height: auto;
+    }
+}
+
+
+.fooot{
+    color: white;
+}
+
+.card-body{
+    background-color: grey;
+}
